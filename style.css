@@ -33,33 +33,33 @@ div {
 div:hover {
   transform: scale(1.2);
 }
-.divided-red {
+#divided-red {
   animation: vindo 1s;
   background-color: red;
 }
-.divided-blue {
+#divided-blue {
   animation: vindo 1s;
 
   background-color: blue;
 }
-.divided-green {
+#divided-green {
   animation: vindo 1s;
 
   background-color: green;
 }
-.divided-orange {
+#divided-orange {
   animation: vindo 1s;
 
   background-color: orange;
 }
 
-.receiver {
+#receiver {
   display: flex;
   justify-content: space-evenly;
   height: 50%;
   gap: 10px;
 }
-.container {
+#container {
   width: 200px;
   height: 200px;
   background-color: gray;

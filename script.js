@@ -14,12 +14,12 @@ redDiv.innerText = "red";
 blueDiv.innerText = "blue";
 greenDiv.innerText = "green";
 orangeDiv.innerText = "orange";
-redDiv.className = "divided-red";
-blueDiv.className = "divided-blue";
-greenDiv.className = "divided-green";
-orangeDiv.className = "divided-orange";
-boxContainer.className = "container";
-boxReceiver.className = "receiver";
+redDiv.id = "divided-red";
+blueDiv.id = "divided-blue";
+greenDiv.id = "divided-green";
+orangeDiv.id = "divided-orange";
+boxContainer.id = "container";
+boxReceiver.id = "receiver";
 
 body.appendChild(inicialButton);
 
@@ -40,11 +40,11 @@ const startClick = () => {
 };
 
 const appendToContainer = (element) => {
-  if (element.id !== "onBox") {
+  if (element.className !== "onBox") {
     boxContainer.appendChild(element);
-    element.id = "onBox";
+    element.className = "onBox";
   } else {
-    element.id = "";
+    element.className = "";
     boxReceiver.appendChild(element);
   }
 };
