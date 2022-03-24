@@ -1,0 +1,78 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.first-click {
+  background-color: pink;
+  color: black;
+  font-size: 50px;
+  font-weight: 900px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  transition: 1s;
+}
+.first-click:hover {
+  background-color: violet;
+  color: white;
+}
+div {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: 0.5s;
+}
+div:hover {
+  transform: scale(1.2);
+}
+.divided-red {
+  animation: vindo 1s;
+  background-color: red;
+}
+.divided-blue {
+  animation: vindo 1s;
+
+  background-color: blue;
+}
+.divided-green {
+  animation: vindo 1s;
+
+  background-color: green;
+}
+.divided-orange {
+  animation: vindo 1s;
+
+  background-color: orange;
+}
+
+.receiver {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50%;
+  gap: 10px;
+}
+.container {
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@keyframes vindo {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
