@@ -18,8 +18,8 @@ redDiv.id = "divided-red";
 blueDiv.id = "divided-blue";
 greenDiv.id = "divided-green";
 orangeDiv.id = "divided-orange";
-boxContainer.id = "container";
-boxReceiver.id = "receiver";
+boxContainer.className = "container";
+boxReceiver.className = "receiver";
 
 body.appendChild(inicialButton);
 

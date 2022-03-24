@@ -53,13 +53,13 @@ div:hover {
   background-color: orange;
 }
 
-#receiver {
+.receiver {
   display: flex;
   justify-content: space-evenly;
   height: 50%;
   gap: 10px;
 }
-#container {
+.container {
   width: 200px;
   height: 200px;
   background-color: gray;
