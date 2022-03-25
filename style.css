@@ -68,6 +68,7 @@ div:hover {
   background-color: gray;
   display: flex;
   flex-wrap: wrap;
+  animation: opacity 1.5s;
 }
 
 @keyframes vindo {
@@ -77,5 +78,16 @@ div:hover {
 
   to {
     transform: scale(1);
+  }
+}
+@keyframes opacity {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
