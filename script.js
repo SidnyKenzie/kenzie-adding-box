@@ -48,4 +48,5 @@ const appendToContainer = (element) => {
     boxReceiver.appendChild(element);
   }
 };
+
 inicialButton.addEventListener("click", startClick);
