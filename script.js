@@ -1,25 +1,27 @@
-const inicialButton = document.createElement("button");
 const redDiv = document.createElement("div");
 const blueDiv = document.createElement("div");
 const greenDiv = document.createElement("div");
 const orangeDiv = document.createElement("div");
-const boxContainer = document.createElement("section");
 const boxReceiver = document.createElement("section");
+const boxContainer = document.createElement("section");
+const inicialButton = document.createElement("button");
 
 const body = document.getElementsByTagName("body")[0];
 
-inicialButton.className = "first-click";
-inicialButton.innerText = "É assim! Clica em mim!";
-redDiv.innerText = "red";
-blueDiv.innerText = "blue";
-greenDiv.innerText = "green";
-orangeDiv.innerText = "orange";
 redDiv.id = "divided-red";
 blueDiv.id = "divided-blue";
 greenDiv.id = "divided-green";
 orangeDiv.id = "divided-orange";
-boxContainer.className = "container";
+
 boxReceiver.className = "receiver";
+boxContainer.className = "container";
+inicialButton.className = "first-click";
+
+redDiv.innerText = "red";
+blueDiv.innerText = "blue";
+greenDiv.innerText = "green";
+orangeDiv.innerText = "orange";
+inicialButton.innerText = "É assim! Clica em mim!";
 
 body.appendChild(inicialButton);
 
