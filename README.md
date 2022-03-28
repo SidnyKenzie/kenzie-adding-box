@@ -14,7 +14,9 @@ Com isso você precisará utilizar o "addEventListener" aprendido recentemente p
 
 ## Segue o exemplo:
 
-    <figure><img width="500" height="300" src="./assets/exemplo.gif" alt=""></figure>
+   <figure align="center">
+      <img width="500" height="300" src="./assets/exemplo.gif">
+   </figure>
 
 ## Rubrica
 
@@ -22,3 +24,5 @@ Com isso você precisará utilizar o "addEventListener" aprendido recentemente p
 - Um botão de tela inicial que quando clicado gerará os proximos elementos | 2pts
 - Quando clicadas as caixas coloridas vão para a caixa maior | 2pts
 - Quando clicadas as caixas coloridas que estiverem dentro da caixa maior, são transportados para fora da mesma | 2pts
+
+
