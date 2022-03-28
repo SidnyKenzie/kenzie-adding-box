@@ -11,6 +11,7 @@ Iremos criar todos so elementos dinamicamente pelo dom, serão 6 itens diferente
 - e uma caixa maior para guardar todas as outras caixas coloridas
 
 Com isso você precisará utilizar o "addEventListener" aprendido recentemente para fazer a movimentação por click
+quando houver o click em uma caixa colorida ela deve ser transportada para dentro ou fora da caixa maior(caso ja esteja dentro).
 
 ## Segue o exemplo:
 
